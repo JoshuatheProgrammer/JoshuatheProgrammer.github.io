@@ -19,7 +19,7 @@ p{
 	font-family: 'Font-Awesome', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-	color: #0088e9;
+	color: #90A4AE;
 	text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ header{
 	transition: all 0.3 ease 0s;
 }
 .nav__links li a:hover{
-	color: #0088e9;
+	color: #69F0AE;
 }
 
 button{
@@ -69,5 +69,5 @@ button{
 }
 
 li, a:hover{
-	color: #0088e9;
+	color: #69F0AE;
 }
