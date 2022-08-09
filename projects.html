@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Joshuas Portfolio Website</title>
-    <link rel="stylesheet" href="./indexstyle.css">
+    <link rel="stylesheet" href="./projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Source+Code+Pro?query=Source+Code">
@@ -15,8 +15,8 @@
         <img class-="logo" src="IMG_1902.jpg" alt="logo">
         <nav>
             <ul class="nav__links">
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
-                <li><a href="./projects.html">Projects</a></li>
                 <li><a href="https://twitter.com/JoshProgrammer"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://github.com/JoshuatheProgrammer"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/joshua-sewell-507909240/"><i class="fa fa-linkedin"></i></a></li>
@@ -24,10 +24,28 @@
         </nav>
         <a class="cta" href="./contact.html"><button>Contact</button></a>
     </header>
-    <div class="embededVid">
-        <h2>Please Watch This Video Where I Briefly Describe Myself And Show Off Some Old Work!</h2>
+    <!--Add Projects Section Here-->
+    <ul>
+        <li><a href="./Projects/pacMan.html">PacMan Exercise</a></li>
+        <li><a href="./Projects/movingEyes.html">CSS Moving Eyes [ They Follow Your Cursor ]</a></li>
+        <li><a href="./Projects/mapanimation.html">Map Animations</a></li>
         <br>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed?v=8Jukz1NAo1c&list=RD8Jukz1NAo1c&start_radio=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+        <br>
+        <li><a href="#">PacMan Exercise Repo</a></li>
+        <br>
+        <p>In This Project I Took Images Of Pacman In Different Positions Facing Different Ways.</p>
+        <p>As PacMan Moves He Changes Image [ Opens / Closes Mouth ]</p>
+        <p>When He Reaches The End Of The Screen He Turns Around!</p>
+        <br>
+        <li><a href="#">CSS Moving Eyes Repo</a></li>
+        <br>
+        <p>I Made A Pair Of Eyes That Follow The Cursor As I Move It Around!</p>
+        <br>
+        <li><a href="#">Map Animations Repo</a></li>
+        <br>
+        <p>In This Exercise I Took A Public API Key That Gathers Information On Buses And Stops</p>
+        <p>So I Was Able To Show Which Bus Stops Where On The Way To MIT.</p>
+        <br>
+    </ul>
 </body>
 </html>

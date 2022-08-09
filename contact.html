@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joshuas Portfolio Website</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Source+Code+Pro?query=Source+Code">
+</head>
+<body>
+    <header>
+        <img class-="logo" src="IMG_1902.jpg" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="https://twitter.com/JoshProgrammer"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/JoshuatheProgrammer"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/joshua-sewell-507909240/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Add Contact Me Section Here-->
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country  </label>
+          <br>
+          <br>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="eu">EU</option>
+            <option value="other">Other</option>
+          </select>
+          <br>
+          <br>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+      
+          <input type="submit" value="Submit">
+          <br>
+          <br>
+          <br>
+          <br>
+          <li>You Can Email Me Here : sewelljoshua565@gmail.com</li>
+        </form>
+      </div>
+</body>
+</html>
