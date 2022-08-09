@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color: #232F34;
+	background-color: #263238;
 }
 
 li, a, button, h1, h2{
@@ -47,7 +47,7 @@ header{
 	transition: all 0.3 ease 0s;
 }
 .nav__links li a:hover{
-	color: #0088e9;
+	color: #1de9b6;
 }
 
 button{
