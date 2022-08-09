@@ -59,11 +59,6 @@ header{
 	color: #0088e9;
 }
 
-.item__list_{
-	align-items: center;
-	margin: 100px;
-}
-
 button{
 	padding: 9px 25px;
 	background-color: rgba(0, 136, 169, 1);
